@@ -218,3 +218,43 @@ Mathematically a bijective function is used on the characters' positions to encr
 
 
 [caesar]: https://upload.wikimedia.org/wikipedia/commons/4/4a/Caesar_cipher_left_shift_of_3.svg
+
+[build-status-image]: https://secure.travis-ci.org/encode/django-rest-framework.svg?branch=master
+[travis]: https://travis-ci.org/encode/django-rest-framework?branch=master
+[coverage-status-image]: https://img.shields.io/codecov/c/github/encode/django-rest-framework/master.svg
+[codecov]: https://codecov.io/github/encode/django-rest-framework?branch=master
+[pypi-version]: https://img.shields.io/pypi/v/djangorestframework.svg
+[pypi]: https://pypi.python.org/pypi/djangorestframework
+[twitter]: https://twitter.com/_tomchristie
+[group]: https://groups.google.com/forum/?fromgroups#!forum/django-rest-framework
+[sandbox]: https://restframework.herokuapp.com/
+
+[funding]: https://fund.django-rest-framework.org/topics/funding/
+[sponsors]: https://fund.django-rest-framework.org/topics/funding/#our-sponsors
+
+[rover-img]: https://raw.githubusercontent.com/encode/django-rest-framework/master/docs/img/premium/rover-readme.png
+[sentry-img]: https://raw.githubusercontent.com/encode/django-rest-framework/master/docs/img/premium/sentry-readme.png
+[stream-img]: https://raw.githubusercontent.com/encode/django-rest-framework/master/docs/img/premium/stream-readme.png
+[machinalis-img]: https://raw.githubusercontent.com/encode/django-rest-framework/master/docs/img/premium/machinalis-readme.png
+[rollbar-img]: https://raw.githubusercontent.com/encode/django-rest-framework/master/docs/img/premium/rollbar-readme.png
+
+[rover-url]: http://jobs.rover.com/
+[sentry-url]: https://getsentry.com/welcome/
+[stream-url]: https://getstream.io/try-the-api/?utm_source=drf&utm_medium=banner&utm_campaign=drf
+[machinalis-url]: https://hello.machinalis.co.uk/
+[rollbar-url]: https://rollbar.com/
+
+[oauth1-section]: http://www.django-rest-framework.org/api-guide/authentication/#django-rest-framework-oauth
+[oauth2-section]: http://www.django-rest-framework.org/api-guide/authentication/#django-oauth-toolkit
+[serializer-section]: http://www.django-rest-framework.org/api-guide/serializers/#serializers
+[modelserializer-section]: http://www.django-rest-framework.org/api-guide/serializers/#modelserializer
+[functionview-section]: http://www.django-rest-framework.org/api-guide/views/#function-based-views
+[generic-views]: http://www.django-rest-framework.org/api-guide/generic-views/
+[viewsets]: http://www.django-rest-framework.org/api-guide/viewsets/
+[routers]: http://www.django-rest-framework.org/api-guide/routers/
+[serializers]: http://www.django-rest-framework.org/api-guide/serializers/
+[authentication]: http://www.django-rest-framework.org/api-guide/authentication/
+[image]: http://www.django-rest-framework.org/img/quickstart.png
+
+[docs]: http://www.django-rest-framework.org/
+[security-mail]: mailto:rest-framework-security@googlegroups.com
