@@ -1,5 +1,26 @@
 # Web-console doc
 
+## Installing
+
+Using npm:
+
+```bash
+$ npm install axios
+```
+
+Using bower:
+
+```bash
+$ bower install axios
+```
+
+Using cdn:
+
+```html
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+```
+
+
 ### All algorithms implemented in Python (for education)
 
 These are for demonstration purposes only. There are many implementations of sorts in the Python standard library that are much better for performance reasons.
