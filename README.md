@@ -1,6 +1,6 @@
 # Web-console doc
 
-## Installing
+## 설치
 
 Using npm:
 
