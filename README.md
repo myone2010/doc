@@ -19,7 +19,7 @@ Using cdn:
 ```
 
 Option 1: TOS Check On Sign In
-``````````````````````````````
+```python
 
 In your root urlconf file ``urls.py`` add:
 
@@ -34,7 +34,7 @@ In your root urlconf file ``urls.py`` add:
     )
 
 Option 2: Middleware Check
-``````````````````````````
+```
 
 
 ## Overview
