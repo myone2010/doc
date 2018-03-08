@@ -1,4 +1,4 @@
-# Django Web-console
+#  한진정보통신 Web-console
 
 ## Installation
 
