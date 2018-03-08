@@ -1,6 +1,6 @@
-# Web-console
+# Django Web-console
 
-## 설치
+## Installation
 
 Using npm:
 
