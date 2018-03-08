@@ -12,7 +12,7 @@ Using bower:
 $ bower install axios
 ```
 
-Using cdn:
+Admin 생성:
 
 ```html
 <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
