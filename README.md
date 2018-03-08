@@ -1,4 +1,4 @@
-# Django 웹 콘솔 <!-- [![Build Status](https://travis-ci.org/TheAlgorithms/Python.svg)](https://travis-ci.org/TheAlgorithms/Python) -->
+# 웹 콘솔 문서
 
 ### All algorithms implemented in Python (for education)
 
