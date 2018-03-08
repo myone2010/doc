@@ -1,4 +1,4 @@
-# 웹 콘솔 문서
+# Web-console doc
 
 ### All algorithms implemented in Python (for education)
 
