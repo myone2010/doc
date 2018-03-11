@@ -22,7 +22,7 @@ Latest ✔
 
 ### Top-level 디렉토리
 
-    /web-console
+    .
     ├── Dockerfile                   # 도커파일
     ├── README.md                    # 설치 및 사용방법
     ├── docs                         # 웹 콘솔/대시보드 문서
