@@ -53,8 +53,8 @@ Latest ✔
 
 ## 클래스 다이어그램
 
-### 음성인식, 후처리 모델 관계
-> Folder structure options and naming conventions for software projects
+### 파일업로드, 음성인식, 후처리 모델 관계
+> `Audio`의 기본키가 `Decode`의 file_id로 외부키 참조됨, 그리고 `Decode`의 기본키가 `After`의 decode_id로 외부키 참조됨.
 
 ![alt text][class-image1]
 
