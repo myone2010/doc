@@ -75,7 +75,7 @@ Latest ✔
 
 
 
-## 클래스 다이어그램
+## Html 템플릿
 
 Option 1: TOS Check On Sign In
 ```python
