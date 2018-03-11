@@ -15,6 +15,26 @@ Latest ✔
 - Materialize CSS
 - Wavesurfer.js
 
+## 디렉토리 구조
+
+> Folder structure options and naming conventions for software projects
+
+### A typical top-level directory layout
+
+    .
+    ├── build                   # Compiled files (alternatively `dist`)
+    ├── docs                    # Documentation files (alternatively `doc`)
+    ├── src                     # Source files (alternatively `lib` or `app`)
+    ├── test                    # Automated tests (alternatively `spec` or `tests`)
+    ├── tools                   # Tools and utilities
+    ├── LICENSE
+    └── README.md
+
+> Use short lowercase names at least for the top-level files and folders except
+> `LICENSE`, `README.md`
+
+
+
 ## 클래스 다이어그램
 
 ### 음성인식, 후처리 모델 관계
@@ -23,8 +43,13 @@ Latest ✔
 ### 대시보드 및 기타 API
 ![alt text][class-image2]
 
-[class-image]: https://github.com/myone2010/doc/blob/master/%EA%B7%B8%EB%A6%BC1.png?raw=true
+[class-image1]: https://github.com/myone2010/doc/blob/master/%EA%B7%B8%EB%A6%BC1.png?raw=true
 [class-image2]: https://github.com/myone2010/doc/blob/master/%EA%B7%B8%EB%A6%BC2.png?raw=true
+
+해당
+
+
+## 클래스 다이어그램
 
 Option 1: TOS Check On Sign In
 ```python
