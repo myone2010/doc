@@ -1,24 +1,5 @@
-## Installation
-
-Using npm:
-
-```bash
-$ npm install axios
-```
-
-Using bower:
-
-```bash
-$ bower install axios
-```
-
-Admin 생성:
-
-```html
-<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-```
-
 # 웹 콘솔/대시보드
+
 ## 개발 방법
 아래와 같이 pipenv를 사용하여 requirments packages를 설치한다.
 ```
@@ -35,7 +16,7 @@ pipenv shell
 ## PostgreSQL 컨테이너 연결
 아래 명령으로 postgresql 실행(실제 동작을 확인하기 위해 foreground 모드로 확인할                                                                                                              것)
 ```
-docker run -d --hostname postgres -e POSTGRES_USER=root -e POSTGRES_PASSWORD=123                                                                                                             4 -p 5432:5432 -v $(pwd)/pgdata:/var/lib/postgresql/data  postgres:10.1
+docker run -d --hostname postgres -e POSTGRES_USER=root -e POSTGRES_PASSWORD=1234 -p 5432:5432 -v $(pwd)/pgdata:/var/lib/postgresql/data  postgres:10.1
 ```
 
 ## Database 생성/마이그레이션
