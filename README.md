@@ -80,7 +80,7 @@ Latest ✔
 ### base.html
 web-console/templates/base.html
 
-```python
+```html
 <html>
 <head>
   ...
@@ -93,7 +93,36 @@ web-console/templates/base.html
 </html>
 ```
 
-웹 콘솔의 헤더 NAV, 왼쪽 사이드 NAV 템플릿이 정의되어있고,  {% block content %} {% endblock %} 사이에 해당 Contents가 연동됨.
+웹 콘솔의 헤더 NAV, 왼쪽 사이드 NAV 템플릿이 정의되어있고, 
+
+{% block content %} {% endblock %} 사이에 해당 Contents가 연동됨.
+
+### home.html
+web-console/templates/registration/login.html
+
+```html
+{% extends 'base.html' %}
+
+{% block title %}Login{% endblock %}
+
+{% block content %}
+
+<form method="POST" action="{% url 'login' %}" class="sign-in-form">
+             <!-- 로그인 양식 -->
+    
+<input type="submit" class="save btn btn-success" value="로그인">
+</form>
+
+{% endblock %}
+``` 
+
+블록으로 연결되는 base.html 정의 후 로그인 폼 생성 
+
+Model : django.contrib.auth.models.User 내장 클래스 사용
+
+View : 내장된 Django 로그인 View 사용
+
+
 
 ## Overview
 
