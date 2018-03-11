@@ -18,6 +18,7 @@ Latest ✔
 - psycopg2-binary 2.7.4
 - Materialize CSS
 - Axios 0.18.0
+- Wavesurffer
 
 ## 클래스 다이어그램
 
