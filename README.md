@@ -36,7 +36,7 @@ Latest ✔
     ├── requirements.txt        # python package setup
     └── Pipfile                 # pipenv package setup
 
-    .
+    /web-console
     ├── Dockerfile              # Dockerfile
     ├── README.md               # Setup
     ├── docs                    # Webconsole docs
