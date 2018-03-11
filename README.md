@@ -49,11 +49,11 @@ Latest ✔
     ├── README.md               # Setup
     ├── docs                    # Webconsole docs
     ├── hana_project            # Django setting, root url
-    ├── Dockerfile              # Dockerfile
-    ├── README.md               # Setup
-    ├── docs                    # Webconsole docs
-    ├── hana_project            # Django setting, root url
-    └── Pipfile                 # pipenv package setup
+    ├── api                     # Api page (model : Decode, After, Cpu-usage, etc), view, url
+    ├── manage.py               # Django Main file
+    ├── requirements.txt        # python package setup
+    └── Pipfile                 # pipenv package setup
+
 
 ## 클래스 다이어그램
 
