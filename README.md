@@ -77,24 +77,23 @@ Latest ✔
 
 ## HTML 템플릿
 
-Option 1: TOS Check On Sign In
+### base.html
+web-console/templates/base.html
+
 ```python
-
-In your root urlconf file ``urls.py`` add:
-
-.. code-block:: python
-
-    from tos.views import login
-
-    # terms of service links
-    urlpatterns += patterns('',
-        url(r'^login/$', login, {}, 'auth_login',),
-        url(r'^terms-of-service/', include('tos.urls')),
-    )
-
-Option 2: Middleware Check
+<html>
+<head>
+  ...
+</head>
+<body>
+           {% block content %}
+             <h1>No content set</h1>
+           {% endblock %}
+</body>
+</html>
 ```
 
+웹 콘솔의 헤더 NAV, 왼쪽 사이드 NAV 템플릿이 정의되어있고,  {% block content %} {% endblock %} 사이에 해당 Contents가 연동됨.
 
 ## Overview
 
