@@ -207,7 +207,7 @@ In cryptography, a **transposition cipher** is a method of encryption by which t
 Mathematically a bijective function is used on the characters' positions to encrypt and an inverse function to decrypt.
 ###### Source: [Wikipedia](https://en.wikipedia.org/wiki/Transposition_cipher)
 
-[bubble-toptal]: https://www.toptal.com/developers/sorting-algorithms/bubble-sort
+[bubble-toptal]: https://github.com/myone2010/doc/blob/master/%EA%B7%B8%EB%A6%BC1.png?raw=true
 [bubble-wiki]: https://en.wikipedia.org/wiki/Bubble_sort
 [bubble-image]: https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Bubblesort-edited-color.svg/220px-Bubblesort-edited-color.svg.png "Bubble Sort"
 
