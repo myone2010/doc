@@ -18,8 +18,13 @@ Latest ✔
 ## 클래스 다이어그램
 
 ### 음성인식, 후처리 모델 관계
-![alt text][class-image]
+![alt text][class-image1]
 
+### 대시보드 및 기타 API
+![alt text][class-image2]
+
+[class-image]: https://github.com/myone2010/doc/blob/master/%EA%B7%B8%EB%A6%BC1.png?raw=true
+[class-image2]: https://github.com/myone2010/doc/blob/master/%EA%B7%B8%EB%A6%BC2.png?raw=true
 
 Option 1: TOS Check On Sign In
 ```python
@@ -207,7 +212,7 @@ Mathematically a bijective function is used on the characters' positions to encr
 ###### Source: [Wikipedia](https://en.wikipedia.org/wiki/Transposition_cipher)
 
 
-[class-image]: https://github.com/myone2010/doc/blob/master/%EA%B7%B8%EB%A6%BC1.png?raw=true
+
 
 [bubble-toptal]: https://github.com/myone2010/doc/blob/master/%EA%B7%B8%EB%A6%BC1.png?raw=true
 [bubble-wiki]: https://en.wikipedia.org/wiki/Bubble_sort
