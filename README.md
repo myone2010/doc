@@ -18,8 +18,6 @@ Latest ✔
 
 ## 디렉토리 구조
 
-> Folder structure options and naming conventions for software projects
-
 ### Top-level 디렉토리
 
     /web-console
@@ -53,15 +51,10 @@ Latest ✔
 `result` 폴더는 음성인식 결과 페이지 조회 관련 View, URL
 
 
-
-you can put them into the `lib` (if you're
-developing a library), or into the `app` folder (if your application's source
-files are not supposed to be compiled).
-
-
 ## 클래스 다이어그램
 
 ### 음성인식, 후처리 모델 관계
+> Folder structure options and naming conventions for software projects
 ![alt text][class-image1]
 
 ### 대시보드 및 기타 API
@@ -70,8 +63,13 @@ files are not supposed to be compiled).
 [class-image1]: https://github.com/myone2010/doc/blob/master/%EA%B7%B8%EB%A6%BC1.png?raw=true
 [class-image2]: https://github.com/myone2010/doc/blob/master/%EA%B7%B8%EB%A6%BC2.png?raw=true
 
-해당
+`users` 폴더는 로그인, 가입, 대시보드 관련 View, URL
 
+`fileupload` 폴더는 음성 업로드 페이지 관련 Model, View, Templatetags, URL
+
+`api` 폴더는 Audio 모델을 제외한 모든 모델 정의 및 API 설정 (View, URL)
+
+`result` 폴더는 음성인식 결과 페이지 조회 관련 View, URL
 
 ## 클래스 다이어그램
 
