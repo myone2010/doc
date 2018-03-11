@@ -39,19 +39,14 @@ Latest ✔
 
 ### A typical top-level directory layout
 
-    /web-console
-    ├── Dockerfile            # 도커파일
-    ├── README.md             # 설치 및 사용방법
-    ├── docs                  # 웹 콘솔/대시보드 문서
-    ├── hana_project          # Django 기본 설정 및 URL 연결
-    ├── static                # 정적 파일 (js,css,img)
-    ├── templates             # html 템플릿 파일
-    ├── users                 # Login, Signup, 대시보드 페이지 관련 view, url
-    ├── fileupload            # 음성 업로드 페이지 관련 model, view, url, templatetags
-    ├── api                   # Audio 모델을 제외한 모든 모델 (Decode, After, Cpu-usage 등)
-    ├── manage.py             # Django 기본 실행 파일
-    ├── requirements.txt      # python 필요 패키지
-    └── Pipfile               # pipenv 환경 설치 파일
+    .
+    ├── build                   # Compiled files (alternatively `dist`)
+    ├── docs                    # Documentation files (alternatively `doc`)
+    ├── src                     # Source files (alternatively `lib` or `app`)
+    ├── test                    # Automated tests (alternatively `spec` or `tests`)
+    ├── tools                   # Tools and utilities
+    ├── LICENSE
+    └── README.md
 
 
 > Use short lowercase names at least for the top-level files and folders except
