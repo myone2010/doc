@@ -97,7 +97,7 @@ web-console/templates/base.html
 
 {% block content %} {% endblock %} 사이에 해당 Contents가 연동됨.
 
-### home.html
+### login.html
 web-console/templates/registration/login.html
 
 ```html
@@ -108,7 +108,8 @@ web-console/templates/registration/login.html
 {% block content %}
 
 <form method="POST" action="{% url 'login' %}" class="sign-in-form">
-             <!-- 로그인 양식 -->
+    
+                      <!-- 로그인 양식 -->
     
 <input type="submit" class="save btn btn-success" value="로그인">
 </form>
@@ -120,9 +121,33 @@ web-console/templates/registration/login.html
 
 Model : django.contrib.auth.models.User 내장 클래스 사용
 
-View : 내장된 Django 로그인 View 사용
+View : Django에 내장된 로그인 View 사용
 
+### signup.html
+web-console/templates/registration/signup.html
 
+```html
+{% extends 'base.html' %}
+
+{% block title %}Signup{% endblock %}
+
+{% block content %}
+
+<form method="post">
+    
+                      <!-- 가입 양식 -->
+    
+<input type="submit" class="save btn btn-success" value="생성">
+</form>
+
+{% endblock %}
+``` 
+
+블록으로 연결되는 base.html 정의 후 가입 폼 생성 
+
+Model : django.contrib.auth.models.User 내장 클래스 사용
+
+View : Django에 내장된 Signup View 사용
 
 ## Overview
 
