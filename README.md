@@ -1,12 +1,12 @@
 # 웹 콘솔/대시보드 문서
 
-## Browser Support
+## 지원 브라우저
 
 ![Chrome](https://raw.github.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png) 
 --- |
 Latest ✔ 
 
-## Requirements
+## 사용 라이브러리
 
 - Python 3.5
 - Django 2.0
