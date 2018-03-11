@@ -38,9 +38,9 @@ Latest ✔
 
     .
     ├── Dockerfile              # Dockerfile
-    ├── docs                    # Documentation files (alternatively `doc`)
-    ├── src                     # Source files (alternatively `lib` or `app`)
-    ├── test                    # Automated tests (alternatively `spec` or `tests`)
+    ├── README.md               # Setup
+    ├── docs                    # Webconsole docs
+    ├── hana_project            # Django setting, root url
     ├── tools                   # Tools and utilities
     ├── LICENSE
     └── README.md
