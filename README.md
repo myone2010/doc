@@ -59,15 +59,14 @@ Latest ✔
 > 외부키 설정에서 on_delete=models.CASCADE 사용으로 파일이 삭제되면 연결된 해당 Decode, After도 같이 삭제됨.
 
 
-<p>
+
+
 
 ![alt text][class-image1]
 
 ### 대시보드 및 기타 API
 ![alt text][class-image2]
 
-[class-image1]: https://github.com/myone2010/doc/blob/master/%EA%B7%B8%EB%A6%BC1.png?raw=true
-[class-image2]: https://github.com/myone2010/doc/blob/master/%EA%B7%B8%EB%A6%BC2.png?raw=true
 
 `users` 폴더는 로그인, 가입, 대시보드 관련 View, URL
 
@@ -76,6 +75,13 @@ Latest ✔
 `api` 폴더는 Audio 모델을 제외한 모든 모델 정의 및 API 설정 (View, URL)
 
 `result` 폴더는 음성인식 결과 페이지 조회 관련 View, URL
+
+
+
+[class-image1]: https://github.com/myone2010/doc/blob/master/%EA%B7%B8%EB%A6%BC1.png?raw=true
+[class-image2]: https://github.com/myone2010/doc/blob/master/%EA%B7%B8%EB%A6%BC2.png?raw=true
+
+
 
 ## 클래스 다이어그램
 
