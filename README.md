@@ -51,10 +51,13 @@ Latest ✔
 `result` 폴더는 음성인식 결과 페이지 조회 관련 View, URL
 
 
+
 ## 클래스 다이어그램
 
 ### 파일업로드, 음성인식, 후처리 모델 관계
 > `Audio`의 기본키가 `Decode`의 file_id로 외부키 참조됨, 그리고 `Decode`의 기본키가 `After`의 decode_id로 외부키 참조됨.
+
+
 
 ![alt text][class-image1]
 
