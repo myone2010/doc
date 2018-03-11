@@ -21,48 +21,20 @@ Latest ✔
 > Folder structure options and naming conventions for software projects
 
 ### Top-level 디렉토리
-
     
     /web-console
-    ├── Dockerfile            # 도커파일
-    ├── README.md             # 설치 및 사용방법
-    ├── docs                  # 웹 콘솔/대시보드 문서
-    ├── hana_project          # Django 기본 설정 및 URL 연결
-    ├── static                # 정적 파일 (js,css,img)
-    ├── templates             # html 템플릿 파일
-    ├── users                 # Login, Signup, 대시보드 페이지 관련 view, url
-    ├── fileupload            # 음성 업로드 페이지 관련 model, view, url, templatetags
-    ├── api                   # Audio 모델을 제외한 모든 모델 (Decode, After, Cpu-usage 등)
-    ├── manage.py             # Django 기본 실행 파일
-    ├── requirements.txt      # python 필요 패키지
-    └── Pipfile               # pipenv 환경 설치 파일
-
-### A typical top-level directory layout
-
-    .
-    ├── Dockerfile            # 도커파일
-    ├── README.md             # 설치 및 사용방법
-    ├── docs                  # 웹 콘솔/대시보드 문서
-    ├── hana_project          # Django 기본 설정 및 URL 연결
-    ├── static                # 정적 파일 (js,css,img)
-    ├── templates             # html 템플릿 파일
-    ├── users                 # Login, Signup, 대시보드 페이지 관련 view, url
-    ├── fileupload            # 음성 업로드 페이지 관련 model, view, url, templatetags
-    ├── api                   # Audio 모델을 제외한 모든 모델 (Decode, After, Cpu-usage 등)
-    ├── manage.py             # Django 기본 실행 파일
-    ├── requirements.txt      # python 필요 패키지
-    └── Pipfile               # pipenv 환경 설치 파일
-
-### A typical top-level directory layout
-
-    .
-    ├── build                   # 설명
-    ├── docs                    # Documentation files (alternatively `doc`)
-    ├── src                     # Source files (alternatively `lib` or `app`)
-    ├── test                    # Automated tests (alternatively `spec` or `tests`)
-    ├── tools                   # Tools and utilities
-    ├── LICENSE
-    └── README.md
+    ├── Dockerfile            # Dockerfile
+    ├── README.md             # Setup
+    ├── docs                  # Webconsole docs
+    ├── hana_project          # Django setting, root url
+    ├── static                # public files (js,css,img)
+    ├── templates             # html templates
+    ├── users                 # Login, Signup, Dashboard page(view, url)
+    ├── fileupload            # Audio upload page (model, view, url, templatetags)
+    ├── api                   # Api page (model : Decode, After, Cpu-usage, etc), view, url
+    ├── manage.py             # Django Main file
+    ├── requirements.txt      # python package setup
+    └── Pipfile               # pipenv package setup
 
 
 ## 클래스 다이어그램
