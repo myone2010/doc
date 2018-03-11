@@ -56,25 +56,17 @@ Latest ✔
 
 ### 파일업로드, 음성인식, 후처리 모델 관계
 > `Audio`의 기본키가 `Decode`의 file_id로 외부키 참조됨, 그리고 `Decode`의 기본키가 `After`의 decode_id로 외부키 참조됨.
-> 외부키 설정에서 on_delete=models.CASCADE 사용으로 파일이 삭제되면 연결된 해당 Decode, After도 같이 삭제됨.
-
-
+> 외부키 설정에서 `on_delete=models.CASCADE` 사용으로 파일이 삭제되면 연결된 해당 Decode, After도 같이 삭제됨.
 
 
 
 ![alt text][class-image1]
 
 ### 대시보드 및 기타 API
+>  테스트를 위한 REST API로 사용 (실제로는 마스터, 클러스터와 직접 연동)  
+
+
 ![alt text][class-image2]
-
-
-`users` 폴더는 로그인, 가입, 대시보드 관련 View, URL
-
-`fileupload` 폴더는 음성 업로드 페이지 관련 Model, View, Templatetags, URL
-
-`api` 폴더는 Audio 모델을 제외한 모든 모델 정의 및 API 설정 (View, URL)
-
-`result` 폴더는 음성인식 결과 페이지 조회 관련 View, URL
 
 
 
