@@ -6,19 +6,14 @@
 --- |
 Latest ✔ 
 
-## 사용 라이브러리
+## 주요 라이브러리
 
-- Python 3.5
 - Django 2.0
 - Django REST Framework 3.7.7
-- django-cors-headers 2.1.0
 - requests 2.18.4
 - apscheduler 3.5.1
-- psycopg2 2.7.4
-- psycopg2-binary 2.7.4
 - Materialize CSS
-- Axios 0.18.0
-- Wavesurffer
+- Wavesurfer.js
 
 ## 클래스 다이어그램
 
