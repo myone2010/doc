@@ -37,7 +37,7 @@ Latest ✔
     └── Pipfile                 # pipenv package setup
 
     .
-    ├── build                   # Compiled files (alternatively `dist`)
+    ├── Dockerfile              # Dockerfile
     ├── docs                    # Documentation files (alternatively `doc`)
     ├── src                     # Source files (alternatively `lib` or `app`)
     ├── test                    # Automated tests (alternatively `spec` or `tests`)
