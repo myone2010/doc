@@ -16,9 +16,10 @@ Latest ✔
 - apscheduler 3.5.1
 - psycopg2 2.7.4
 - psycopg2-binary 2.7.4
+- Materialize CSS
+- Axios 0.18.0
 
-
-
+## 클래스 다이어그램
 
 Option 1: TOS Check On Sign In
 ```python
