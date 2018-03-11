@@ -41,7 +41,7 @@ Latest ✔
     ├── README.md               # Setup
     ├── docs                    # Webconsole docs
     ├── hana_project            # Django setting, root url
-    ├── tools                   # Tools and utilities
+    ├── static                  # public files (js,css,img)
     ├── LICENSE
     └── README.md
 
