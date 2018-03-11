@@ -22,7 +22,7 @@ Latest ✔
 
 ### Top-level 디렉토리
     
-    /web-console
+    .
     ├── Dockerfile            # Dockerfile
     ├── README.md             # Setup
     ├── docs                  # Webconsole docs
