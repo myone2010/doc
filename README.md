@@ -7,6 +7,7 @@
 Latest ✔ 
 
 ## 주요 라이브러리
+> Web-console 핵심 라이브러리만 기술
 
 - Django 2.0
 - Django REST Framework 3.7.7
