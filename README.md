@@ -37,6 +37,15 @@ Latest ✔
     └── Pipfile                 # pipenv package setup
 
 
+`hana_project` 폴더에는 Django 기본 세팅 및 url 설정
+`users` 폴더에는 로그인, 가입, 대시보드 관련 view, url
+`hana_project` 폴더에는 Django 기본 세팅 및 url
+`hana_project` 폴더에는 Django 기본 세팅 및 url
+you can put them into the `lib` (if you're
+developing a library), or into the `app` folder (if your application's source
+files are not supposed to be compiled).
+
+
 ## 클래스 다이어그램
 
 ### 음성인식, 후처리 모델 관계
