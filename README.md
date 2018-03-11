@@ -56,8 +56,10 @@ Latest ✔
 
 ### 파일업로드, 음성인식, 후처리 모델 관계
 > `Audio`의 기본키가 `Decode`의 file_id로 외부키 참조됨, 그리고 `Decode`의 기본키가 `After`의 decode_id로 외부키 참조됨.
+> 외부키 설정에서 on_delete=models.CASCADE 사용으로 파일이 삭제되면 연결된 해당 Decode, After도 같이 삭제됨.
 
 
+<p>
 
 ![alt text][class-image1]
 
