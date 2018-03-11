@@ -18,6 +18,43 @@ Admin 생성:
 <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 ```
 
+# 웹 콘솔/대시보드
+## 개발 방법
+아래와 같이 pipenv를 사용하여 requirments packages를 설치한다.
+```
+pip3 install pipenv
+pipenv install -r requirements.txt
+```
+
+pipenv run 으로 실행하거나 pipenv shell로 python 환경으로 접근한다.
+```
+pipenv run python manage.py runserver
+    또는
+pipenv shell
+```
+## PostgreSQL 컨테이너 연결
+아래 명령으로 postgresql 실행(실제 동작을 확인하기 위해 foreground 모드로 확인할                                                                                                              것)
+```
+docker run -d --hostname postgres -e POSTGRES_USER=root -e POSTGRES_PASSWORD=123                                                                                                             4 -p 5432:5432 -v $(pwd)/pgdata:/var/lib/postgresql/data  postgres:10.1
+```
+
+## Database 생성/마이그레이션
+```
+pipenv run python manage.py migrate
+```
+## 도커 실행 방법
+```
+git clone git@192.168.0.21:Hanatour/hana_project.git
+docker build -t webconsole .
+docker run --it --rm -p 8000:8000 webconsole
+```
+
+## 미디어 파일 경로 변경 방법
+```
+cd hana-webconsole
+cd hana_project
+vi settings.py # 파일 수정
+MEDIA_ROOT = os.path.abspath('/home/hnt/media/') # 원하는 주소로 변경
 
 
 ## Requirements
