@@ -53,7 +53,7 @@ Latest ✔
     ├── README.md               # Setup
     ├── docs                    # Webconsole docs
     ├── hana_project            # Django setting, root url
-    └── Pipfile                 # pipenv package setup
+    └── Pipfile                 # pipenv 필요패키지
 
 ## 클래스 다이어그램
 
