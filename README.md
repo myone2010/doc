@@ -29,21 +29,30 @@ Latest ✔
     ├── hana_project            # Django setting, root url
     ├── static                  # public files (js,css,img)
     ├── templates               # html templates
-    ├── users                   # Login, Signup, Dashboard page(view, url)
+    ├── users                   # Login, Signup, Dashboard page (view, url)
     ├── fileupload              # Audio upload page (model, view, url, templatetags)
     ├── api                     # Api page (model : Decode, After, Cpu-usage, etc), view, url
+    ├── result                  # Decode, After result page (view, url)
     ├── manage.py               # Django Main file
     ├── requirements.txt        # python package setup
     └── Pipfile                 # pipenv package setup
 
 
-`hana_project` 폴더에는 Django 기본 세팅 및 url 설정
+`hana_project` 폴더는 Django 기본 세팅 및 루트 URL 설정
 
-`users` 폴더에는 로그인, 가입, 대시보드 관련 view, url
+`static` 폴더는 정적 파일 (js,css,img)
 
-`hana_project` 폴더에는 Django 기본 세팅 및 url
+`templates` 폴더는 html 템플릿 (공통으로 사용)
 
-`hana_project` 폴더에는 Django 기본 세팅 및 url
+`users` 폴더는 로그인, 가입, 대시보드 관련 View, URL
+
+`fileupload` 폴더는 음성 업로드 페이지 관련 Model, View, Templatetags, URL
+
+`api` 폴더는 Audio 모델을 제외한 모든 모델 정의 및 API 설정 (View, URL)
+
+`result` 폴더는 음성인식 결과 페이지 조회 관련 View, URL
+
+
 
 you can put them into the `lib` (if you're
 developing a library), or into the `app` folder (if your application's source
