@@ -42,8 +42,13 @@ Latest ✔
     ├── docs                    # Webconsole docs
     ├── hana_project            # Django setting, root url
     ├── static                  # public files (js,css,img)
-    ├── LICENSE
-    └── README.md
+    ├── templates               # html templates
+    ├── users                   # Login, Signup, Dashboard page(view, url)
+    ├── fileupload              # Audio upload page (model, view, url, templatetags)
+    ├── api                     # Api page (model : Decode, After, Cpu-usage, etc), view, url
+    ├── manage.py               # Django Main file
+    ├── requirements.txt        # python package setup
+    └── Pipfile                 # pipenv package setup
 
 
 
