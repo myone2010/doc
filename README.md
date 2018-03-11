@@ -21,7 +21,7 @@ Latest ✔
 > Folder structure options and naming conventions for software projects
 
 ### Top-level 디렉토리
-    
+
     /web-console
     ├── Dockerfile              # Dockerfile
     ├── README.md               # Setup
