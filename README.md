@@ -18,7 +18,7 @@ Latest ✔
 ## 클래스 다이어그램
 
 ### 음성인식, 후처리 모델 관계
-[class-image]
+![alt text][class-image]
 
 
 Option 1: TOS Check On Sign In
