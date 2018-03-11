@@ -75,7 +75,7 @@ Latest ✔
 
 
 
-## Html 템플릿
+## HTML 템플릿
 
 Option 1: TOS Check On Sign In
 ```python
