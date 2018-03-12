@@ -161,7 +161,7 @@ web-console/templates/result/detail.html
 ```html
 {% extends 'base.html' %}
 
-{% block title %}Home{% endblock %}
+{% block title %} Contents {% endblock %}
 
 {% block content %}
 {% if user.is_authenticated %}
