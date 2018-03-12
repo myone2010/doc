@@ -150,7 +150,7 @@ Model : django.contrib.auth.models.User 내장 클래스 사용
 View : Django에 내장된 Signup View 사용 (users.views의 signup 클래스에서 커스텀화)
 
 
-### home.html, audio_upload.html, detail.html
+### home.html , audio_upload.html , detail.html
 web-console/templates/home.html
 
 web-console/templates/fileupload/audio_upload.html
@@ -166,7 +166,7 @@ web-console/templates/result/detail.html
 {% block content %}
 {% if user.is_authenticated %}
 
-                      <!-- 대시보드 내용 -->
+                      <!-- 컨텐츠 내용 -->
     
 {% else %}
 <meta http-equiv='refresh' content='0;url={% url 'login' %}'>
@@ -176,7 +176,6 @@ web-console/templates/result/detail.html
 {% endblock %}
 
 ``` 
-
 
 {% if user.is_authenticated %} 로 유저 로그인 여부 검사
 
