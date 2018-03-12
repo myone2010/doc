@@ -150,8 +150,13 @@ Model : django.contrib.auth.models.User 내장 클래스 사용
 View : Django에 내장된 Signup View 사용 (users.views의 signup 클래스에서 커스텀화)
 
 
-### home.html
+### home.html, audio_upload.html, detail.html
 web-console/templates/home.html
+
+web-console/templates/fileupload/audio_upload.html
+
+web-console/templates/result/detail.html
+
 
 ```html
 {% extends 'base.html' %}
@@ -176,8 +181,3 @@ web-console/templates/home.html
 {% if user.is_authenticated %} 로 유저 로그인 여부 검사
 
 아닐시 로그인 페이지로 강제 리플래시됨.
-
-Model : api.models의 Decode, After 모델 사용
-
-View : users.views의 dashboard 사용
-
