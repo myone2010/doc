@@ -161,11 +161,8 @@ web-console/templates/home.html
 {% block content %}
 {% if user.is_authenticated %}
 
-
-    
                       <!-- 대시보드 내용 -->
     
-
 {% else %}
 <meta http-equiv='refresh' content='0;url={% url 'login' %}'>
 
